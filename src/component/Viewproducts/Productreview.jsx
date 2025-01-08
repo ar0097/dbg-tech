@@ -64,7 +64,7 @@ function Productreview() {
             .slice(startIndex, startIndex + itemsPerView)
             .map((ele, idx) => (
               <div
-                className="flex justify-between p-3 flex-col transition-transform bg-white w-[800px] h-[400px] rounded-lg border-gray-300 border-[1px] hover:border-black duration-300"
+                className="flex justify-between p-3 flex-col transition-transform bg-white w-[800px] h-[400px] rounded-lg border-gray-300 border-[1px]"
                 key={startIndex + idx} // Ensure unique keys
                 style={{
                   transform: `translateX(-${startIndex * (8 / itemsPerView)}%)`,
