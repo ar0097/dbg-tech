@@ -1,0 +1,20 @@
+.show-hidden:hover {
+  width: 750px;
+  display: block;
+}
+/* hover:div.show-hidden {
+    
+} */
+
+.show-hidden:hover .move-up {
+  width: 300px;
+  margin: auto auto;
+}
+
+.show-hidden:hover .show-para {
+  display: block;
+}
+
+.hover-image:hover .show-parag {
+  display: block;
+}
